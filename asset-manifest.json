@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/todo-list-react/static/css/main.a6c2fc95.css",
-    "main.js": "/todo-list-react/static/js/main.3a252382.js",
-    "static/media/freecodecamp-logo.svg": "/todo-list-react/static/media/freecodecamp-logo.2847bc12544317f79647dc18d67a0930.svg",
+    "main.css": "/todo-list-react/static/css/main.57536b7d.css",
+    "main.js": "/todo-list-react/static/js/main.1fb9369b.js",
     "index.html": "/todo-list-react/index.html",
-    "main.a6c2fc95.css.map": "/todo-list-react/static/css/main.a6c2fc95.css.map",
-    "main.3a252382.js.map": "/todo-list-react/static/js/main.3a252382.js.map"
+    "main.57536b7d.css.map": "/todo-list-react/static/css/main.57536b7d.css.map",
+    "main.1fb9369b.js.map": "/todo-list-react/static/js/main.1fb9369b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6c2fc95.css",
-    "static/js/main.3a252382.js"
+    "static/css/main.57536b7d.css",
+    "static/js/main.1fb9369b.js"
   ]
 }
