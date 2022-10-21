@@ -1,19 +1,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 html, body {
   color: white;
   background-color: #1b1b32;
   font-family: Lato, sans-serif;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 h1 {
   color: #1b1b32; 
-  font-size: 25px;
+  font-size: 35px;
   font-family: Roboto, sans-serif;
   text-align: center;
   margin: 20px 0;
@@ -27,10 +27,29 @@ h1 {
 }
 
 .main-todo-list {
-  width: 600px;
+  width: 800px;
   min-height: 500px;
   background-color: #d0d0d5;
-  padding: 25px;
-  margin: 10px;
+  padding: 18px;
   border-radius: 25px;
+  margin-top: 50px;
+}
+
+@media (max-width: 640px) { 
+  .Todo-List-App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .main-todo-list {
+    width: 100%;
+    min-height: 500px;
+    background-color: #d0d0d5;
+    padding: 18px;
+    margin: 10px;
+    border-radius: 25px;
+  }
 }

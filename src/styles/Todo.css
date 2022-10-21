@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 7px;
+  border-radius: 14px;
   border: 1px solid white;
   cursor: pointer;
 }
@@ -42,4 +42,8 @@
 .todo-container.completed {
   background-color: #5a01a7;
   text-decoration: line-through;
+}
+
+@media (max-width: 640px) { 
+
 }

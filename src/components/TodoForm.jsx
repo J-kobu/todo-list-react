@@ -24,8 +24,10 @@ const TodoForm = (props) => {
 
   return (
     <form className='todo-form' onSubmit={sendManager}>
-      <input className='todo-input' type='text' placeholder='Write a Todo' name='text' onChange={changeManager} />
-      <button className='todo-button'>Add Todo</button>
+      <div className='input-button-container'> 
+        <input className='todo-input' type='text' placeholder='Write a Todo' name='text' onChange={changeManager} />
+        <button className='todo-button'>Add Todo</button>
+      </div>
     </form>
   );
 };
